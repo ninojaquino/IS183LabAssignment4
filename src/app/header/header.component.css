@@ -1,0 +1,36 @@
+ 
+  .top-nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: #222;
+    border-color: #080808;
+    height: 55px;
+    border-radius: 4px;
+    padding: 1em;
+  }
+  .main-nav {
+    border: 1px solid #e5e5e5;
+  }
+  .welcome-txt {
+    color: #FFF;
+  }
+  
+  .top-nav-item {
+    list-style-type: none;
+  }
+  
+  .top-nav-item li {
+    display: inline;
+  }
+  
+  .top-nav-item li a {
+    color: #FFF;
+    padding: 5px;
+  }
+  
+  .logo-txt {
+    font-size: 1.75em !important;
+    font-weight: bold;
+  }
+ 
+ 
