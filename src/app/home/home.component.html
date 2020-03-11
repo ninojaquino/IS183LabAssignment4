@@ -26,15 +26,8 @@
       </div>
     </div>
     <div class="r2">
-      <div>
-        <img class="circle" src="assets/img/thumbs/120010.jpg" alt="lady">
-        <h2>Portrait of Eleanor of Toledo</h2>
-        <p class="left-align">The Portrait of Eleanor of Toledo and Her Son is a painting by the Italian artist Agnolo
-          di Cosimo, known as Bronzino, finished ca. 1545. One of his most famous works, it is housed in the Uffizi
-          Gallery of Florence, Italy and is considered one of the preeminent examples of Mannerist portraiture.</p>
-        <button class="btn btn-light">View Details</button>
-      </div>
-      <div>
+      <app-art-work-card *ngFor="let artwork of artworks" [artwork]="artwork"></app-art-work-card>
+      <!-- <div>
         <img class="circle" src="assets/img/thumbs/116010.jpg" alt="lady1">
         <h2>Portrait of the Artist</h2>
         <p class="left-align">Portrait of the Artist Holding a Thistle is an oil painting on parchment pasted on canvas
@@ -49,6 +42,6 @@
           implies, uses a pearl earring for a focal point. Today the painting is kept in the Mauritshuis gallery in The
           Hague. It is sometimes referred to as "the Mona Lisa of the North" or "the Dutch Mona Lisa".</p>
         <button class="btn btn-light">View Details</button>
-      </div>
+      </div> -->
     </div>
   </div>
