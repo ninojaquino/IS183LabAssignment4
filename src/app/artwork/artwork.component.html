@@ -63,16 +63,18 @@
           <br><br>
           <h1>Similar Products</h1>
           <div class="similar-products">
-            <div class="bordered">
+            <app-similar-product-card *ngFor="let item of similarProducts" [cardItem]="item"></app-similar-product-card>
+            <!-- <div class="bordered">
               <img src="assets/img/thumbs/116010.jpg" alt="img1">
+              <img [src]="item.image_url" alt="img1">
               <p class="small-text">Artist Holding a Thistle</p>
               <div class="btn-group">
                 <button class="btn btn-primary btn-bordered"><i class="fas fa-camera"></i> View</button>
                 <button class="btn btn-success btn-bordered"><i class="fas fa-gift"></i> Wish</button>
                 <button class="btn btn-info btn-bordered"><i class="fas fa-camera"></i> Cart</button>
               </div>
-            </div>
-            <div class="bordered">
+            </div> -->
+            <!-- <div class="bordered">
               <img src="assets/img/thumbs/120010.jpg" alt="img1">
               <p class="small-text">Portrait of Eleanor Toledo</p>
               <div class="btn-group">
@@ -98,7 +100,7 @@
                 <button class="btn btn-success btn-bordered"><i class="fas fa-camera"></i> Wish</button>
                 <button class="btn btn-info btn-bordered"><i class="fas fa-shopping-cart"></i> Cart</button>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="art-c2">
